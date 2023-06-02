@@ -68,15 +68,6 @@ setInterval(updateTime, 1000);
 
 
 
-
-
-
-
-
-
-
-
-
   // Get the current hour of the day using the dayjs library.
 
   // TODO: Add a listener for click events on the save button. This code should
