@@ -55,7 +55,13 @@ $(function () {
     timeElement.text(currentTime);
   }
 
-
+// Call functions to make them work
+hourlyColor();
+textEntry();                
+refreshColor();
+// has time interval update
+setInterval(updateTime, 1000);
+});
 
 
 
@@ -91,4 +97,4 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
-});
+
