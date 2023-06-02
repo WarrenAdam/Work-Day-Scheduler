@@ -39,7 +39,7 @@ $(function () {
   }
 
   // Gets user input from local storage and sets text area values.
-  $('.time-block').each(function() {
+  $('.time-block').each(function () {
     const key = $(this).attr('id');
     const value = localStorage.getItem(key);
     $(this).children('.description').val(value);
@@ -55,12 +55,12 @@ $(function () {
     timeElement.text(currentTime);
   }
 
-// Call functions to make them work
-hourlyColor();
-textEntry();                
-refreshColor();
-// has time interval update
-setInterval(updateTime, 1000);
+  // Call functions to make them work
+  hourlyColor();
+  textEntry();
+  refreshColor();
+  // has time interval update
+  setInterval(updateTime, 1000);
 });
 
 
